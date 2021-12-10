@@ -177,7 +177,7 @@ def main(source, verbose=False):
 
         for guild in bot.guilds:
             guser = guild.get_member(bot.user.id);
-            await guser.edit(nick=f'Gas: 🚶{average}');
+            await guser.edit(nick=f'Eth Gas: 🚶{average}');
 
         await asyncio.sleep(config['updateFreq'])  # in seconds
 
